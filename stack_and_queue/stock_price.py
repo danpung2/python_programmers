@@ -5,6 +5,7 @@
 # prices의 길이는 2 이상 100,000 이하입니다.
 from collections import deque
 
+# 큐 사용
 def solution(prices):
     answer = []
     prices_queue = deque(prices)
@@ -21,6 +22,7 @@ def solution(prices):
 
     return answer
 
+# 이중 for문 사용
 def solution_2(prices):
     answer = []
 
