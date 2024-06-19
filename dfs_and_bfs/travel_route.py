@@ -29,7 +29,6 @@ def wrong(tickets):
         current = candidate[0][1]
         tickets.remove(candidate[0])
                 
-    print(tickets)
     return answer
 
 from collections import defaultdict
