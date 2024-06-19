@@ -53,6 +53,3 @@ def solution(tickets):
     dfs("ICN")
     return route[::-1]
 
-tickets = [["ICN", "BBB"], ["BBB", "ICN"], ["ICN", "AAA"], ["AAA", "ICN"]]
-
-print(wrong(tickets))
